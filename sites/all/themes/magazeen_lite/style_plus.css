@@ -55,3 +55,13 @@ input#edit-search-block-form--2 {
   float:left;
   margin-right:10px;
 }
+
+h2.node-title {
+  width:100%;
+}
+
+.node-info {
+  padding: 5px 5px;
+  border-bottom:none;
+  width:auto;
+}
