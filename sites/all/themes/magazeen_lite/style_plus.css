@@ -1,0 +1,52 @@
+#header {
+ background:#fff;
+}
+
+#logo {
+ background:#fff;
+ padding: 14px 0 15px 0;
+ float:left;
+}
+
+#logo a, #logo div {
+ float:left;
+}
+
+#searchform-header {
+  margin: 20px 20px 0 0;
+}
+
+#searchform-header .form-submit {
+  background: #fff;
+  color:#000;
+  border: 1px solid #000;
+height: 24px;
+}
+
+input#edit-search-block-form--2 {
+  background: none;
+  border:1px solid #000;
+  width: 160px;
+}
+
+#navigation ul li a:link,
+#navigation ul.links li.active a:link {
+ padding: 13px 10px;
+}
+
+.container {
+  width: 1020px;
+}
+
+#sidebar {
+  margin: 0 15px 0 0;
+}
+
+.view-t-mogat-k {
+  overflow:hidden;
+}
+
+.view-t-mogat-k .views-row {
+  width:132px;
+  float:left;
+}
