@@ -31,7 +31,7 @@
 </div> <!-- /header -->
 
 <!-- ______________________ NAVIGATION _______________________ -->
-
+<a name="top"></a>
 <?php if (!empty($main_menu)): ?>
   <div id="navigation"><!-- navigation -->
     <div class="container clearfix">
@@ -75,6 +75,7 @@
     <div id="sidebar" class="left">
       <?php print render($page['sidebar_second']); ?> 
     </div><!-- /right -->
+    
     <div class="main">
 		<?php if ($breadcrumb): print $breadcrumb; endif; ?>
         
@@ -109,7 +110,7 @@
         <?php print render($page['content']); ?>
         
         <?php print $feed_icons; ?>
-        
+        <div id="back-to-top0"><a href="#top"><?php print('Back to top of the page');?></a></div>
     </div><!-- /main -->
     
   </div><!-- /main-container -->

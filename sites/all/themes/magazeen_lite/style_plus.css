@@ -50,3 +50,8 @@ input#edit-search-block-form--2 {
   width:132px;
   float:left;
 }
+
+.node .field-name-field-image {
+  float:left;
+  margin-right:10px;
+}
