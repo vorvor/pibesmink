@@ -6,9 +6,8 @@
 		<?php if ($logo): ?>
         <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>">
 	
-	<?php /*<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> */ ?>
-	
-	<object type="application/x-shockwave-flash" data="/sites/default/files/logo.swf" width="130" height="130"> <param name="movie" value="/sites/default/files/logo.swf"></object>
+	<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> 
+
 	
 	</a>
         <?php endif; ?>
@@ -110,7 +109,7 @@
         <?php print render($page['content']); ?>
         
         <?php print $feed_icons; ?>
-        <div id="back-to-top0"><a href="#top"><?php print('Back to top of the page');?></a></div>
+        <div id="back-to-top0"><a href="#top"><?php print(t('Back to top of the page'));?></a></div>
     </div><!-- /main -->
     
   </div><!-- /main-container -->
