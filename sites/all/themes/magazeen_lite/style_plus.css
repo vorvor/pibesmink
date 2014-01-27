@@ -65,3 +65,22 @@ h2.node-title {
   border-bottom:none;
   width:auto;
 }
+
+#site-name {
+  display: block;
+  margin: 33px 0 0 15px;
+}
+
+#site-name a {
+  
+  color: #777;
+}
+
+#slogan {
+  display: block;
+  float: none;
+  clear: both;
+  margin: 65px 0 0 15px;
+  font-size: 1.8em;
+  color: #777;
+}
